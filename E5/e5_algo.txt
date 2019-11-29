@@ -1,0 +1,18 @@
+/* Algorithmn for implementing a Lexical analyzer using LEX tool in Linux platform.
+ALGORITHM:
+
+
+ Step1: Lex program contains three sections: definitions, rules, and user subroutines. Each section must be separated from the others by a line containing only the    delimiter, %%.  The format is as follows:   definitions %% rules %% user_subroutines 
+
+ Step2: In definition section, the variables make up the left column, and their definitions make up the right column. Any C statements should be enclosed in %{..}%. Identifier is defined such that the first letter of an identifier is alphabet and remaining letters are alphanumeric.
+
+ Step3: In rules section, the left column contains the pattern to be recognized in an input file to yylex(). The right column contains the C program fragment executed when that pattern is recognized. The various patterns are keywords, operators, new line character, number, string, identifier, beginning and end of block, comment statements, preprocessor directive statements etc.
+
+ Step4: Each pattern may have a corresponding action, that is, a fragment of C source code to execute when the pattern is matched. 
+
+ Step5: When yylex() matches a string in the input stream, it copies the matched text to an external character array, yytext, before it executes any actions in the rules section. 
+
+ Step6: In user subroutine section, main routine calls yylex(). yywrap() is used to get more input. 
+
+ Step7: The lex command uses the rules and actions contained in file to generate a program, lex.yy.c, which can be compiled with the cc command. That program can then receive input, break the input into the logical pieces defined by the rules in file, and run program fragments contained in the actions in file.
+*/

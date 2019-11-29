@@ -1,0 +1,24 @@
+Introduction : 
+Systems programming, or system programming, is the activity of programming[1] computer system software. The primary distinguishing characteristic of systems programming when compared to application programming is that application programming aims to produce software which provides services to the user directly (e.g. word processor), whereas systems programming aims to produce software and software platforms which provide services to other software, are performance constrained, or both (e.g. operating systems, computational science applications, game engines, industrial automation, and software as a service applications).[1]
+
+Systems programming requires a great degree of hardware awareness. Its goal is to achieve efficient use of available resources, either because the software itself is performance critical or because even small efficiency improvements directly transform into significant monetary savings for the service provider (cloud based word processors). 
+
+Compenents : 
+
+1:- compiler: A program that converts instructions into a machine code or lower level from so that they can be read and executed by a computer. The process of converting high level programming into machine language is known as compilation.
+
+2:- Assembler: An assembler is a type of computer program that interprets software programs written in assembly language into machine language, code and instructions that can be executed by a computer.
+
+3:- Linker: It is the process of combining various pieces of code and data together to form a single executable file that can be reloaded into the memory.
+
+4:- Loader: Loader is an operating system utility that copies the programs on hard disk to main memory (RAM).
+
+In addition loader also replaces physical addresses with logical addresses .
+
+5:- Macros : A macro is a rule or pattern that specifies how a certain input sequence should be mapped to a replacement output sequence according to a defined procedure .
+
+6:- Editors : Editors or text editors are software programs that enable the user to create and edit text files. Editor is a program which insert,delete,update and add the data.
+
+7:- Debuggers: It is a program used to find and test bugs (errors ) in the programs (other programs ). A debugger is also known as debugging tool.
+
+A debugger allows a programmer to stop a program at any point and examine and change the values of the program.
